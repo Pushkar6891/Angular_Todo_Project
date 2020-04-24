@@ -1,0 +1,23 @@
+http://localhost:8080/hello-world
+http://localhost:8080/hello-world-bean
+http://localhost:8080/hello-world-bean/path-variable/in28minutes
+
+Retrieve all Todos for a user	GET		/users/{username}/todos
+Delete a Todo of a User			DELETE  /users/{username}/todos/{id}
+Edit a Todo						PUT 	/users/{username}/todos/{id}
+Create a new Todo				POST	/users/{username}/todos
+
+GET all todos
+http://localhost:8080/users/{username}/todos
+http://localhost:8080/users/in28minutes/todos
+
+GET one todo
+http://localhost:8080/users/in28minutes/todos/1
+
+DELETE
+http://localhost:8080/users/in28minutes/todos/1
+
+PUT
+
+
+POST
